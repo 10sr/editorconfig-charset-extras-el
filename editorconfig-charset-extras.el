@@ -71,16 +71,14 @@ If no apropriate charset found return nil."
              (memq emacs-charset-interned
                    coding-systems))
         emacs-charset-interned
-      (display-warning 'editorconfig-charset-extras
-                       (format "Charset not found: %S"
-                               emacs-charset-interned))
+      (message "editorconfig-charset-extras: Charset not found: %S"
+               emacs-charset-interned)
       (if (and charset-interned
                (memq charset-interned
                      coding-systems))
           charset-interned
-        (display-warning 'editorconfig-charset-extras
-                         (format "Charset not found: %S"
-                                 charset-interned))
+        (message "editorconfig-charset-extras: Charset not found: %S"
+                 charset-interned)
         nil))))
 
 ;;;###autoload
