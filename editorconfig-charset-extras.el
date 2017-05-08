@@ -1,6 +1,6 @@
 ;;; editorconfig-charset-extras.el --- Extra EditorConfig Charset Support
 
-;; Author: 10sr <>
+;; Author: 10sr <8.slashes@gmail.com>
 ;; URL: https://github.com/10sr/editorconfig-charset-extras-el
 ;; Version: 0.1
 ;; Package-Requires: ((editorconfig "0.6.0"))
