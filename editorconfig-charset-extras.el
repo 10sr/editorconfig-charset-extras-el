@@ -4,7 +4,7 @@
 ;; URL: https://github.com/10sr/editorconfig-charset-extras-el
 ;; Version: 0.1
 ;; Package-Requires: ()
-;; Keywords: utility
+;; Keywords: tools
 
 ;; This file is not part of GNU Emacs.
 
