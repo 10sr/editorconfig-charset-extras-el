@@ -93,7 +93,7 @@ The list of supported charsets is taken from the result of function
                                 hash)))
     (let ((decided (editorconfig-charset-extras--decide charset emacs-charset)))
       (when decided
-        (set-buffer-file-coding-system decided)))))
+        (set-buffer-file-coding-system decided nil t)))))
 
 (provide 'editorconfig-charset-extras)
 
