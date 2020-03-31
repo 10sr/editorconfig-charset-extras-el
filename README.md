@@ -1,3 +1,6 @@
+[![MELPA](https://melpa.org/packages/editorconfig-charset-extras-badge.svg)](https://melpa.org/#/editorconfig-charset-extras)
+    
+
 editorconfig-charset-extras.el
 ==============================
 
